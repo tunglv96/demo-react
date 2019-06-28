@@ -1,0 +1,44 @@
+#navbar {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    .container {
+        max-width: 114rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+        .navbar-brand {
+            font-size: 3rem;
+            color: $color-white;
+            display: inline-flex;
+            font-weight: bold;
+        }
+        ul {
+            float: right;
+            display: inline-flex;
+            li {
+                padding: 0 1.2rem;
+                a {
+                    font-size: 1.5rem;
+                    color: $color-white;
+                    font-weight: bold;
+                    &.active {
+                        color: $color-1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bg {
+    background: $color-white;
+    padding-bottom: 2rem !important;
+    ul {
+        li a {
+            color: $color-black !important;
+        }
+    }
+    a {
+        color: $color-black !important;
+    }
+}
