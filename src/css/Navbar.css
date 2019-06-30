@@ -1,0 +1,32 @@
+#navbar {
+  position: fixed;
+  z-index: 999;
+  width: 100%; }
+  #navbar .container {
+    max-width: 114rem;
+    margin: 0 auto;
+    margin-top: 2rem; }
+    #navbar .container .navbar-brand {
+      font-size: 3rem;
+      color: white;
+      display: inline-flex;
+      font-weight: bold; }
+    #navbar .container ul {
+      float: right;
+      display: inline-flex; }
+      #navbar .container ul li {
+        padding: 0 1.2rem; }
+        #navbar .container ul li a {
+          font-size: 1.5rem;
+          color: white;
+          font-weight: bold; }
+          #navbar .container ul li a.active {
+            color: #f4623a; }
+
+.bg {
+  background: white;
+  padding-bottom: 2rem !important; }
+  .bg ul li a {
+    color: black !important; }
+  .bg a {
+    color: black !important; }
