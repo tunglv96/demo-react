@@ -5,16 +5,7 @@ class NavItem extends Component {
         return (
             <React.Fragment>
                 <li className="nav-item">
-                    <a className="nav-link" href="#about">About</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#service">Services</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#contact">Contact</a>
+                    <a className="nav-link" href={this.props.navLink}>{this.props.text}</a>
                 </li>
             </React.Fragment>
         );

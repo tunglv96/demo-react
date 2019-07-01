@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Bg from './header-bg/Bg';
+import Background from './header-bg/Background';
 import Text from './header-text/Text';
 
 class HeaderId extends Component {
     render() {
         return (
             <div id="header">
-                <Bg />
+                <Background />
                 <Text />
             </div>
         );

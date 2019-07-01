@@ -8,9 +8,27 @@ class Navbar extends Component {
             <React.Fragment>
                 <nav id="navbar">
                     <div className="container">
-                        <Logo />
+                        <Logo 
+                            text="Logo"
+                            link="index.html"
+                        />
                         <ul className="navbar-nav">
-                            <NavItem />
+                            <NavItem
+                                text="About"
+                                navLink="#about"
+                            />
+                            <NavItem
+                                text="Services"
+                                navLink="#service"
+                            />
+                            <NavItem
+                                text="Portfolio"
+                                navLink="#portfolio"
+                            />
+                            <NavItem
+                                text="Contact"
+                                navLink="#contact"
+                            />
                         </ul>
                     </div>
                 </nav>

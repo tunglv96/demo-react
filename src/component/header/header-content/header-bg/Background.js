@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Bg from  '../../../../images/bg-masthead.jpg';
 
-class Logo extends Component {
+class Background extends Component {
     render() {
         return (
             <React.Fragment>
@@ -11,4 +11,4 @@ class Logo extends Component {
     }
 }
 
-export default Logo;
+export default Background;
