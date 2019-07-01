@@ -100,3 +100,39 @@ a {
           text-transform: uppercase;
           font-size: 1.44rem;
           font-weight: bold; }
+
+#about {
+  text-align: center;
+  padding: 8rem 0;
+  background-color: #f4623a !important; }
+  #about .container {
+    width: 73rem;
+    margin: 0 auto; }
+    #about .container h3 {
+      font-size: 3.4rem;
+      color: white;
+      font-weight: 500; }
+    #about .container hr {
+      width: 5rem;
+      margin: 27px auto;
+      height: 0.2rem;
+      background-color: white;
+      border: 1px solid white; }
+    #about .container p {
+      color: rgba(255, 255, 255, 0.75);
+      font-size: 1.65rem;
+      width: 68rem;
+      font-weight: 300;
+      margin: 0 auto; }
+    #about .container button {
+      width: 18.5rem;
+      height: 6rem;
+      border-radius: 10rem;
+      background-color: white;
+      border: none;
+      margin-top: 3.5rem; }
+      #about .container button a {
+        color: black;
+        text-transform: uppercase;
+        font-size: 1.44rem;
+        font-weight: bold; }

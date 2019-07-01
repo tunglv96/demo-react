@@ -4,7 +4,7 @@ class P extends Component {
     render() {
         return (
             <React.Fragment>
-                 <p>Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
+                 <p>{this.props.text}</p>
             </React.Fragment>
         );
     }

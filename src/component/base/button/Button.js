@@ -4,7 +4,7 @@ class Button extends Component {
     render() {
         return (
             <React.Fragment>
-                <button><a href>find out more</a></button>
+                <button><a href="#">{this.props.text}</a></button>
             </React.Fragment>
         );
     }
